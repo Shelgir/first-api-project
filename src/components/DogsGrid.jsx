@@ -31,7 +31,7 @@ export default function DogsGrid() {
         More Dogs
       </button>
       <div className="flex justify-center items-start">
-        <div className="py-20 grid grid-cols-6 gap-5 w-4/5">
+        <div className="py-20 grid grid-cols-2 md:grid-cols-6 gap-5 w-4/5">
           {dogs.map((dog, index) => (
             <img
               className="w-full h-64 object-contain object-center"
