@@ -31,6 +31,16 @@ export default function TheNavbar() {
             >
               Todo
             </Link>
+            <Link
+              to="/dogs"
+              className={
+                splitLocation[1] === "dogs"
+                  ? "mx-4 text-2xl font-bold text-white border-b-2 "
+                  : "mx-4 text-xl font-bold text-white hover:text-gray-300 transition-colors ease-in "
+              }
+            >
+              Dogs
+            </Link>
           </div>
         </div>
       </>

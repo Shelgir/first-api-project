@@ -42,7 +42,7 @@ export default function TodoList() {
   }
   return (
     <div>
-      <div className="h-screen flex flex-col justify-center items-center ">
+      <div className=" flex flex-col justify-center items-center py-20">
         {todos.map((todoKey, index) => {
           return (
             <div className="py-2 rounded shadow-md my-2 flex w-1/3 justify-between items-center bg-white hover:bg-gray-100 transition-colors transform ease-in">

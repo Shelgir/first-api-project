@@ -34,7 +34,7 @@ export default function QuoteGen() {
               className="px-3 py-2 bg-blue-500 rounded text-white hover:bg-blue-700 transition-colors transform ease-in"
               onClick={getQuote}
             >
-              Generate new
+              New Quote
             </button>
           </div>
         </div>
